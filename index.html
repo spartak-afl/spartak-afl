@@ -25,7 +25,12 @@ section{padding:72px 0}.light{background:#f3f0e9;color:#151515}.section-title{fo
 .news{display:grid;grid-template-columns:1fr 1fr;gap:18px}.news img{width:100%;border-radius:10px}.news .card{height:max-content}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contact a{color:#ff5b60}
 footer{padding:30px 0;border-top:1px solid var(--line);color:#9297a1;font-size:14px}
-@media(max-width:800px){.links{display:none}.stats,.grid3,.timeline,.ach,.media,.gallery,.news,.contact{grid-template-columns:1fr}.gallery figure:nth-child(1){grid-column:auto}.hero{min-height:600px}.hero .wrap{padding-bottom:50px}.stat{padding:22px}}
+
+.telegram-feed{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:30px;align-items:start}
+.tg-post{background:#fff;border:1px solid #ddd;border-radius:12px;padding:10px;min-width:0;overflow:hidden}
+.tg-post:last-child:nth-child(odd){grid-column:1/-1;max-width:570px;width:100%;justify-self:center}
+
+@media(max-width:800px){.links{display:none}.stats,.grid3,.timeline,.ach,.media,.gallery,.news,.contact,.telegram-feed{grid-template-columns:1fr}.gallery figure:nth-child(1){grid-column:auto}.tg-post:last-child:nth-child(odd){grid-column:auto;max-width:none}.hero{min-height:600px}.hero .wrap{padding-bottom:50px}.stat{padding:22px}}
 </style>
 </head>
 <body>
@@ -87,7 +92,15 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:#9297a1;font-size:1
 <p><a href="https://vk.ru/spartak_afl" target="_blank" rel="noopener">ВКонтакте →</a></p>
 <p><a href="https://max.ru/id7751307165_biz" target="_blank" rel="noopener">MAX →</a></p>
 <img src="assets/poster-psg.jpg" alt="Афиша матча ЛФК Спартак" style="margin-top:16px">
-</div></div></div></section>
+</div></div>
+<div class="telegram-feed">
+  <div class="tg-post"><script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="spartak_afl/1638" data-width="100%"></script></div>
+  <div class="tg-post"><script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="spartak_afl/1633" data-width="100%"></script></div>
+  <div class="tg-post"><script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="spartak_afl/1624" data-width="100%"></script></div>
+  <div class="tg-post"><script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="spartak_afl/1612" data-width="100%"></script></div>
+  <div class="tg-post"><script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="spartak_afl/1596" data-width="100%"></script></div>
+</div>
+</div></section>
 
 <section><div class="wrap"><h2 class="section-title">Развитие и устойчивость</h2>
 <div class="grid3">
