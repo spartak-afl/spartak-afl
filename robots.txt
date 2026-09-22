@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://spartak-afl.pages.dev/sitemap.xml
+Sitemap: https://spartak-afl.ru/sitemap.xml
